@@ -28,7 +28,7 @@ vagrant ssh
 ```
 ## Opdracht
 ```
-Je vind je opdracht in /opdracht
+Je vind je opdracht in ~/vagrant/opdracht
 ```
 ## Network
 De Vagrant VM zal 2 netwerk adapters hebben
