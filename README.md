@@ -5,9 +5,9 @@ De eindopdracht Linux N3 leerjaar 2
 
 De volgende software is nodig
 ```
-* Virtualbox 5.0 or hoger
+* Virtualbox 5.0 of hoger
 * Git bash voor Windows
-* Vagrant 2.2.6 or hoger
+* Vagrant 2.2.6 of hoger
 ```
 Installatie
 ```
@@ -21,7 +21,7 @@ Open <b>Git Bash</b> in Windows en typ de volgende commandos
 ```
 cd Documents
 mkdir vagrant && cd vagrant
-git clone https://github.com/borahuho/DevOps1
+git clone https://github.com/mbockstael/ubuntu-eind.git
 cd DevOps1
 vagrant up
 vagrant ssh
