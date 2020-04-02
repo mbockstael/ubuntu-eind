@@ -1,5 +1,5 @@
 # Linux eindopdracht
-De eindopdracht Linux N3 leerjaar 2
+De eindopdracht Linux N3 
 
 ## Voorwaarden software
 
