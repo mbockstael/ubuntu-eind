@@ -3,7 +3,7 @@
 
 # Linux praktijk opdracht
 
-Het afsluiten van het vak Linux gebeurt door het maken van een praktijkopdracht.In deze praktijkopdracht zullen de  ***meeste*** onderwerpen uit de eerderelessen terugkomen.
+Het afsluiten van het vak Linux gebeurt door het maken van een praktijkopdracht.In deze praktijkopdracht zullen de  ***meeste*** onderwerpen uit de eerdere lessen terugkomen.
 
 Het is ***belangrijk*** dat je de stappen documenteert. Doe dit vanaf het beginzodat je altijd terug kan grijpen op vorige stappen als er iets fout gaat. Ook is het ***belangrijk*** dat u snapshots maakt van uw virtuele machines.
 
@@ -40,3 +40,6 @@ Je gaat een server maken die aan de volgende voorwaarden voldoet:
 3 Zorg voor een SSH verbinding naar de server;
 4 Zorg voor een ftp mogelijkheid om de html mappen te vullen;
 5 de taken die geautomatiseerd kunnen worden ***(denk aan de backups)*** dienen te gebeuren door middel van scripts.
+
+##Belangrijk##
+Ben je eerder klaar en er is nog tijd over, vraag bij de docent voor een extra uitdaging!!
