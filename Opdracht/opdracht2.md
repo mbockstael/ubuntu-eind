@@ -1,4 +1,4 @@
-![Linux logo](https://nl.wikipedia.org/wiki/Tux#/media/Bestand:Tux.svg "TUX")
+![Linux logo](https://www.putorius.net/wp-content/uploads/2019/01/tux.jpg "TUX")
 
 
 # Linux praktijk opdracht
