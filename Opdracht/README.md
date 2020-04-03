@@ -1,55 +1,46 @@
-# Linux eindopdracht
-De eindopdracht Linux N3 leerjaar 2
+U gaat een server configureren die verschillende taken gaat uitvoeren.
 
-## Voorwaarden software
+Dit document beschrijft waar de server uiteindelijk aan moet voldoen om de praktijkopdracht succesvol af te ronden.
 
-De volgende software is nodig
-```
-* Virtualbox 5.0 or hoger
-* Git bash voor Windows
-* Vagrant 2.2.6 or hoger
-```
-Installatie
-```
-* Installeer Virtualbox: https://www.virtualbox.org/wiki/Downloads
-* Installeer Git bash for Windows: https://gitforwindows.org/
-* Installeer Vagrant for Windows: https://www.vagrantup.com/downloads.html
-```
+Het is belangrijk de stappen die u neemt goed te documenteren aangezien het installeren van een server met het besturingssysteem Linux vaker terugkomt.
 
-## Het starten van vagrant
-Open <b>Git Bash</b> in Windows en typ de volgende commandos
-```
-cd Documents
-mkdir vagrant && cd vagrant
-git clone https://github.com/borahuho/DevOps1
-cd DevOps1
-vagrant up
-vagrant ssh
-```
-## Opdracht
-```
-Je vind je opdracht in /opdracht
-```
-## Network
-De Vagrant VM zal 2 netwerk adapters hebben
-```
-Nat : DHCP
-Localhost : 192.168.10.4
-```
-## Vagrant commandos
-Vagrant VM opstarten
-```
-vagrant up
-```
-Stoppen en afsluiten van de VM
-```
-vagrant halt
-```
-Verwijderen van een VM
-```
-vagrant destroy
-```
-ssh naar de VM
-```
-vagrant ssh Ubuntuserver
-```
+Succes met de opdracht!
+
+<b>Voorwaarden</b>
+
+De opdracht voldoet aan de volgende voorwaarden:
+  • De opdracht wordt individueel uitgevoerd;
+  • De hulpmiddelen die je mag gebruiken zijn;
+    o Boek(en);
+      o Internet;
+      o Medestudenten;
+  • De nabespreking vindt plaats in gespreksvorm met de docent. Je presenteert je
+    server(s) en hier zal een gesprek op volgen. In het totaal zal de presentatie en
+    het gesprek maximaal 10 minuten duren. Wanneer blijkt dat er meer tijd nodig is
+    zal er een vervolgafspraak gemaakt worden;
+  • Je maakt een verslag van de installatie en korte gebruikers handleiding. Dit
+    verslag voldoet minimaal aan:
+      o Voorblad
+      o Automatisch gegenereerde inhoudsopgave
+      o Gebruik maken van opmaakstijlen
+      o Voettekst
+      o Paginanummering
+
+<b>Opdracht server</b>
+Je gaat een webserver maken met de volgende eisen:
+  • Linux Ubuntu server (nieuwste);
+  • Webserver;
+    • 2 websites mogelijk
+  • Samba server
+  • 2 testgebruikers aangemaakt
+  • 2 mappen gedeeld
+    o Zorg voor beveiliging
+      § Testgebruiker 1 mag lezen en schrijven in elke map ook van
+      testgebruiker 2
+      § Testbegruiker 2 mag lezen in één map van testgebruiker 1, de rest
+      heeft hij geen rechten op
+  • Zorg ervoor dat van de html map een backup wordt gemaakt (dagelijks).
+
+Je zorgt dat de server via SSH te benaderen is.
+Je zorgt dat de server via ftp te benaderen is. Via FTP moeten de mappen voor de websites gevuld kunnen worden
+Je maakt gebruik van scripts om processen te automatiseren.
