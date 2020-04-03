@@ -40,4 +40,5 @@ Je gaat een server maken die aan de volgende voorwaarden voldoet:
 2 Backups - zorg dat de html mappen en de mappen van de gebruikers worden gebackupped, gebruik hiervoor rsync;
 3 Zorg voor een SSH verbinding naar de server;
 4 Zorg voor een ftp mogelijkheid om de html mappen te vullen;
-5 de taken die geautomatiseerd kunnen worden **(denk aan de backups)** dienen te gebeuren door middel van scripts.
+5 de taken die geautomatiseerd kunnen worden (denk aan de backups) dienen te gebeuren door middel van scripts.
+* eerste punt
