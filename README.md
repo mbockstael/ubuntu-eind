@@ -1,5 +1,3 @@
-![Linux logo](https://www.putorius.net/wp-content/uploads/2019/01/tux.jpg "TUX")
-
 # Linux praktijkopdracht
 Het afsluiten van het vak Linux gebeurt door het maken van een praktijkopdracht.In deze praktijkopdracht zullen de  ***meeste*** onderwerpen uit de eerdere lessen terugkomen.
 
