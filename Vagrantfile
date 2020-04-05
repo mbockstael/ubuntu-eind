@@ -26,7 +26,7 @@ Vagrant.configure('2') do |config|
         end
 
 	# Copy from folder to notes
-        machine1.vm.provision "shell", inline: $useraddscript
+        machine.vm.provision "shell", inline: $useraddscript
         machine.vm.synced_folder "Opdracht/", "/home/vagrant/opdracht"
         machine.vm.provision "file", source: "~/.vagrant.d/insecure_private_key", destination: "$HOME/.ssh/id_rsa"
     end
