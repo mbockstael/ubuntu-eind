@@ -1,5 +1,5 @@
 $useraddscript = <<SCRIPT
-useradd -m martijn
+useradd -m martijn -s /bin/bash
 usermod -aG sudo martijn
 echo martijn:Welcome01 | chpasswd
 
