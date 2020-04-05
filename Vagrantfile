@@ -2,6 +2,7 @@ $useraddscript = <<SCRIPT
 useradd -m martijn -s /bin/bash
 usermod -aG sudo martijn
 echo martijn:Welcome01 | chpasswd
+passwd -e martijn
 
 SCRIPT
 
