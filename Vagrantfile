@@ -1,3 +1,11 @@
+$useraddscript = <<SCRIPT
+useradd -m martijn
+usermod -aG sudo martijn
+echo martijn:Welcome01 | chpasswd
+
+SCRIPT
+
+
 Vagrant.configure('2') do |config|
     config.ssh.insert_key = false
 
